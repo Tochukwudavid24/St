@@ -1,7 +1,5 @@
-import javax.naming.Name;
 import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.jar.Attributes;
 
 public class StudentService {
     private ArrayList<Student> students = new ArrayList<>();
