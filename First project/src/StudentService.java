@@ -8,10 +8,11 @@ public class StudentService {
     public void addStudents(){
         System.out.println("Enter ID: ");
         int id = scanner.nextInt();
+        scanner.nextLine();
 
         System.out.println("Enter Name: ");
         String Name = scanner.nextLine();
-        scanner.nextLine();
+
 
         System.out.println("Enter Email: ");
         String Email = scanner.nextLine();
