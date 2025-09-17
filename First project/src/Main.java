@@ -5,11 +5,12 @@ public class Main {
         StudentService studentService = new StudentService();
         while (true){
             System.out.println("\n==== Student Management ====");
+            System.out.println("\n Choose an Option below :");
             System.out.println("1. Add Student");
             System.out.println("2. View All Students");
             System.out.println("3. Search Student By ID");
             System.out.println("4. Exit");
-            System.out.println("5. Choose Option");
+
 
             int choice = scanner.nextInt();
 
